@@ -1,0 +1,10 @@
+
+  <div class="moviescard">
+    {{#each movie as |movie|}}
+      <img src="{{movie.image}}">
+      <h3>{{movie.title}}</h3>
+      <a href="/movies/{{ movie.id }}"class="list-group-item list-group-item-action" ></a>
+      See more
+      </a>
+    {{/each}}
+  </div>

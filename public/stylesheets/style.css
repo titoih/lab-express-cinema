@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+/* 
+.containerCards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} */
+
+.moviescard{
+  width: 25%;
+}
+
+.list-group{
+  flex-direction: row !important;
+}
